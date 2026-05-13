@@ -1,2 +1,2 @@
 # PaperDB
-Rust-based Vector Database
+DB
