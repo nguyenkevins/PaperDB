@@ -1,0 +1,15 @@
+[package]
+name = "paperdb-py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "paperdb_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+paperdb-core = { path = "../paperdb-core" }
+pyo3 = { version = "0.20", features = ["extension-module"] }
+bincode = "1"
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"

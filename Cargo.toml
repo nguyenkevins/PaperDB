@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "paperdb-core",
+    "paperdb-build",
+    "paperdb-py",
+]
+resolver = "2"
